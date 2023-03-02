@@ -1,0 +1,82 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bungkus {
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+}
+
+
+.bungkus header {
+    background: darkblue;
+    padding: 2px 10px;
+}
+
+
+.bungkus nav {
+    background: white;
+}
+
+.bungkus nav ul {
+    padding: 0;
+    margin: 0;
+    background: orange;
+    overflow: hidden;
+}
+
+.bungkus nav ul li {
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    color: aliceblue;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.utama {
+    height: 450px;
+}
+
+.bungkus header .logo {
+    margin-top: 10px;
+    padding-right: 0px;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.bungkus header .headerlogo {
+    float: left;
+    height: 100%;
+    width: 80%;
+    margin-top: 10px;
+}
+
+
+.bungkus .utama .sidebar {
+    background: blue;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.bungkus .utama .konten {
+    background: white;
+    float: left;
+    height: 100%;
+    width: 75%;
+    position: relative;
+}
+
+.bungkus footer {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: darkblue;
+}
